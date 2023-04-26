@@ -1,0 +1,18 @@
+@media (max-width: 768px) {
+    html, body {
+        font-size: 12px;
+    }
+
+    .jumbotron {
+        flex-direction: column;
+        height: 100%;
+    }
+    
+    .polaroid {
+        transform: rotate(0deg);
+    }
+
+    .fa-bars {
+        visibility: visible;
+    }
+}
